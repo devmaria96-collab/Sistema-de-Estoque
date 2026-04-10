@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema de Controle de Estoque - Front-end
 
 ## Estrutura de Pastas Padronizada
@@ -112,3 +113,7 @@ front-end/
 3. Atualizar referências de caminhos
 4. Implementar arquivos compartilhados
 5. Documentar componentes reutilizáveis
+=======
+# Sistema-de-Estoque
+Sistema de Estoque é uma aplicação web desenvolvida para facilitar a organização e o gerenciamento empresarial, permitindo o cadastro de produtos, empresas e usuários. O projeto segue em desenvolvimento, com novas funcionalidades sendo implementadas.
+>>>>>>> 37c72df4ad5ce6c13c9fb5b90681731336b406dd
