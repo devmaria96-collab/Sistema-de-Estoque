@@ -3,16 +3,16 @@ services:
     name: estoques-ti-api
     runtime: python
     plan: free
+    rootDir: Backend
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.2
-      - key: ORACLE_USER
+      - key: DATABASE_URL
         sync: false
-      - key: ORACLE_PASSWORD
-        sync: false
-      - key: ORACLE_DSN
+      - key: JWT_SECRET_KEY
         sync: false
       - key: API_TITLE
         value: Estoque TI API
